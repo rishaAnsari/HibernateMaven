@@ -31,6 +31,7 @@ public class HibernateMain
        p.setBrand("Lenovo");
        p.setPrice(40000);
        s.save(p);
+       System.out.println("Product is saved");
        t.commit();
        s.close();
        
